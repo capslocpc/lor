@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "freq-app"
+version = "0.1.0"
+description = "Fraud Bayesian Network application"
+authors = ["Michael Peel <capslocpc@outlook.com>"]
+readme = "README.md"
+packages = [
+  { include = "freq_app", from = "src" }
+]
+
+[tool.poetry.dependencies]
+python = ">=3.13,<4.0" 
+pydantic = ">=2.11.9,<3.0.0"
+pydantic-settings = ">=2.11.0,<3.0.0"
+pgmpy = ">=1.0.0,<2.0.0"
+loguru = "^0.7.3"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+[dependency-groups]
+dev = [
+    "wemake-python-styleguide (>=1.4.0,<2.0.0)"
+]

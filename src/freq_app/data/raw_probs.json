@@ -1,0 +1,27 @@
+{
+  "Porting": {
+    "Recent": 0.12,
+    "Old": 0.05,
+    "None": 0.015
+  },
+  "DarkWeb": {
+    "High": 0.10,
+    "Medium": 0.06,
+    "Low": 0.03,
+    "None": 0.01
+  },
+  "StateMatch": {
+    "No": 0.05,
+    "Yes": 0.015
+  },
+  "ProxyFlag": {
+    "Yes": 0.06,
+    "No": 0.02
+  },
+  "MAID_NightDistance": {
+    "Distant": 0.06,
+    "Medium": 0.04,
+    "Near": 0.025,
+    "Close": 0.015
+  }
+}

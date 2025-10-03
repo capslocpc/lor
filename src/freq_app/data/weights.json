@@ -1,0 +1,20 @@
+{
+  "bias": -3.8918202981106265,
+  "weights": {
+    "Porting:Recent": 1.8993901334204202,
+    "Porting:Old": 0.9473813189441862,
+    "Porting:None": -0.292771141959252,
+    "DarkWeb:High": 1.6945957207744073,
+    "DarkWeb:Medium": 1.1402849850686776,
+    "DarkWeb:Low": 0.4157216082753532,
+    "DarkWeb:None": -0.7032995520239633,
+    "StateMatch:No": 0.9473813189441862,
+    "StateMatch:Yes": -0.292771141959252,
+    "ProxyFlag:Yes": 1.1402849850686776,
+    "ProxyFlag:No": 0.0,
+    "MAID_NightDistance:Distant": 1.1402849850686776,
+    "MAID_NightDistance:Medium": 0.7137664677626812,
+    "MAID_NightDistance:Near": 0.22825865198098017,
+    "MAID_NightDistance:Close": -0.292771141959252
+  }
+}
