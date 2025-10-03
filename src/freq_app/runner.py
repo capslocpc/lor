@@ -43,10 +43,6 @@ def main():
         None
     """
 
-
-
-
-
     # Default risky case (for CLI runs)
     default_case = {
         "Porting": "Recent",
